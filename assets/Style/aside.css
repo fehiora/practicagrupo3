@@ -14,9 +14,10 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, auto);
-    grid-gap: 70px;
+    grid-gap: 25px;
     align-items: center;
     justify-content: center;
+    padding: 1em;
 }
 
 .grid-clients img {

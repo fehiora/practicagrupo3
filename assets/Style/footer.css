@@ -10,10 +10,7 @@ img {
     width: 100%;
 }
 
-.nav {
-    grid-area: menu;
-    background-color: rgb(255, 185, 119);
-}
+
 
 .footer1 {
     display: grid;
@@ -21,7 +18,42 @@ img {
     grid-area: footer;
     justify-items: center;
     align-items: center;
-    background-color: rgb(104, 92, 92);
+    background-color: rgba(74, 33, 114, 0.86);
+    font-family: 'Nunito',
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#logo2 {
+    width: 250px;
+}
+
+.navbar ul {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.navbar li:hover {
+    background-color: plum;
+}
+
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.iframe {
+    margin-top: 20px;
+    width: 50%;
 }
 
 .footer2 {
@@ -29,37 +61,7 @@ img {
     grid-area: footer2;
     justify-items: center;
     align-items: center;
-    background-color: rgb(145, 114, 114);
-}
-
-.navbar ul {
-    font-size: 18px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.navbar li:hover {
-    background-color: rgb(161, 32, 32);
-}
-
-.navbar a:active {
-    color: blue;
-}
-
-.navbar a {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-
-.active {
-    color: purple;
-    font-weight: bold;
-    background-color: white;
-
-
-    background-color: rgb(255, 119, 119);
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em;
 }
