@@ -1,0 +1,63 @@
+
+body {
+    
+    font-family: 'AbeeZee', sans-serif;
+}
+
+
+.logo{
+    width: 300px;
+    height: 180px;
+    border-radius: 10em;
+  
+}
+
+
+.redes{
+display: flex;
+flex-direction: row;
+background-color:none;
+color: white;
+text-rendering: none;
+margin: auto 1rem auto 1rem;
+}
+
+.redes{
+    position: fixed;
+    top: 0.1rem;
+    right: 10rem;
+}
+.navbar {
+    display: flex;
+    
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    min-height: 100px;
+    font-size: 1.1rem;
+  
+}
+
+
+.nav-link{
+    color: #000000;
+    margin-right: 1rem;    
+}
+
+.nav-link:hover{
+    color: crimson;
+}
+
+.navbar-toggler:focus {
+
+    outline: none;
+
+}
+
+.baner1 {
+    border-radius: 10em;
+ text-align: center; 
+ margin-top: 20px;  
+    flex-basis: calc(33.3% - 1rem);
+    
+    
+}
